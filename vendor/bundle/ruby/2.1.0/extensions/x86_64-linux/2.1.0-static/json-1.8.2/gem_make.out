@@ -1,0 +1,10 @@
+/usr/local/bin/ruby -r ./siteconf20150512-17113-adnag5.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: 没有什么可以做的为 `all'。
+
+make "DESTDIR=" install
+installing default libraries
