@@ -65,6 +65,9 @@ class TopicsController < ApplicationController
       @topic.votes.create
       redirect_to(topics_path)
     end
+  def  chi
+     p 999
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_topic
